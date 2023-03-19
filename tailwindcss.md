@@ -6,7 +6,8 @@
 	
 ### Fixed widths
 	- Use w-{number} or w-px to set an element to a fixed width.
-	### <div class="w-96 ..."></div>
+	 
+	 <div class="w-96 ..."></div>
 		
 ### custom screen names
 	- 'tablet': '640px',  // => @media (min-width: 640px) { ... }
