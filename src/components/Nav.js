@@ -9,10 +9,10 @@ import { Link } from "react-scroll";
 
 const Nav = () => {
     return (
-        <nav classname="fixed bottom-2 lg:botton-8">
+        <nav classname="fixed bottom-2 lg:botton-8 w-full overflow-hidden z-50">
             <div classname='container mx-auto'>
                 {/*nav link*/}
-                <div>
+                <div classname="w-full bg-black/20">
                     <Link>
                         <BiHomeAlt />
                     </Link>
