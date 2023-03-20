@@ -1,6 +1,6 @@
 ## tailwindcss
 	
-	### Layout (Top / Right / Bottom / Left)
+	###Layout (Top / Right / Bottom / Left)
 		- Utilities for controlling the placement of positioned elements.
 		- bottom-2	bottom: 0.5rem; /* 8px */
 		
