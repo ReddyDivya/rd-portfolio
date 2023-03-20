@@ -4,7 +4,7 @@ import About from "./components/About";
 import Banner from "./components/Banner";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import Navbar from "./components/Nav";
+import Nav from "./components/Nav";
 import Services from "./components/Services";
 
 const App = (props) => {
@@ -13,11 +13,11 @@ const App = (props) => {
             <Header />
             <About />
             <Banner />
-            <Navbar />
+            <Nav />
             <Work />
             <Services />
             <Contact />
-            <div classname="h-[4000px]"></div>
+            <div className="h-[4000px]"></div>
         </div>
     )
 }
