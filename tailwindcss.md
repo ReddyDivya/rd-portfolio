@@ -2,4 +2,14 @@
 	
 	### Layout (Top / Right / Bottom / Left)
 		- Utilities for controlling the placement of positioned elements.
-		- bottom-0.5	bottom: 0.125rem; /* 2px */
+		- bottom-2	bottom: 0.5rem; /* 8px */
+		
+	### custom screen names
+		 'tablet': '640px',
+		// => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }

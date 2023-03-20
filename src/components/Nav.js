@@ -17,7 +17,6 @@ const Nav = () => {
                         <BiHomeAlt />
                     </Link>
                 </div>
-
             </div>
         </nav>
     );
