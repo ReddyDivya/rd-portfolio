@@ -24,3 +24,51 @@
 	<div class="w-3/5 ...">w-3/5</div>
 	<div class="w-full ...">w-full</div>
 	
+### Fixed heights
+	- Use h-{number} or h-px to set an element to a fixed height.
+	
+	<div class="h-96 ...">h-96</div>
+	<div class="h-80 ...">h-80</div>
+
+### Pill buttons
+	- Use the rounded-full utility to create pill buttons.
+	
+	<button class="rounded-full">Save Changes</button>
+	
+### No rounding
+	- Use rounded-none to remove an existing border radius from an element.
+	
+	<div class="rounded-t-lg ..."></div>
+	<div class="rounded-r-lg ..."></div>
+	<div class="rounded-b-lg ..."></div>
+	<div class="rounded-l-lg ..."></div>
+	
+	<div class="rounded-tl-lg ..."></div>
+	<div class="rounded-tr-lg ..."></div>
+	<div class="rounded-br-lg ..."></div>
+	<div class="rounded-bl-lg ..."></div>
+	<button class="rounded-none">Save Changes</button>
+
+### Rounding sides separately
+	- Use rounded-{t|r|b|l}{-size?} to only round one side of an element.
+	
+### Using the container
+	- To center a container, use the mx-auto utility.
+	
+	<div class="container mx-auto"></div>
+
+### Flex
+	- Utilities for controlling how flex items both grow and shrink.
+	
+	<div class="flex">
+	  <div class="flex-none w-14 h-14">
+		01
+	  </div>
+	  <div class="flex-initial w-64 ...">
+		02
+	  </div>
+	  <div class="flex-initial w-32 ...">
+		03
+	  </div>
+	</div>
+	
