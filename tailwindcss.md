@@ -3,6 +3,12 @@
 ### Layout (Top / Right / Bottom / Left)
 	- Utilities for controlling the placement of positioned elements.
 	- bottom-2	bottom: 0.5rem; /* 8px */
+	
+### Fixed widths
+	- Use w-{number} or w-px to set an element to a fixed width.
+	<code>
+		<div class="w-96 ..."></div>
+	</code>
 		
 ### custom screen names
 	- 'tablet': '640px',  // => @media (min-width: 640px) { ... }
