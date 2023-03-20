@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn {
+    background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+:active {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+@layer base {
+
+    body {
+        @apply font-secondary text-lg leading-8 text-white;
+    }
+
+    h2 {
+        @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+    }
+
+    .section {
+        @apply py-8 lg: py-24 lg:h-screen flex items-center;
+    }
+}

@@ -1,8 +1,8 @@
 const Work = () => {
     return (
-        <>
-            <h3>Work</h3>
-        </>
+        <div className="section">
+            Work
+        </div>
     );
 }
 

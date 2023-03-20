@@ -9,7 +9,7 @@ import Services from "./components/Services";
 
 const App = (props) => {
     return (
-        <>
+        <div className="bg-site bg-no-repeat bg-cover">
             <Header />
             <About />
             <Banner />
@@ -17,7 +17,8 @@ const App = (props) => {
             <Work />
             <Services />
             <Contact />
-        </>
+            <div classname="h-[4000px]"></div>
+        </div>
     )
 }
 
