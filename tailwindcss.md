@@ -19,3 +19,8 @@
 ### Percentage widths
 	- Use w-{fraction} or w-full to set an element to a percentage based width.
 	
+	<div class="w-1/2 ... ">w-1/2</div>
+	<div class="w-2/5 ...">w-2/5</div>
+	<div class="w-3/5 ...">w-3/5</div>
+	<div class="w-full ...">w-full</div>
+	
