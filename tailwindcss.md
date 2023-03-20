@@ -71,4 +71,17 @@
 		03
 	  </div>
 	</div>
+
+### Justify Content
+	- Utilities for controlling how flex and grid items are positioned along a container's main axis.
 	
+	justify-between	justify-content: space-between;
+	
+	### Space between
+		- Use justify-between to justify items along the container’s main axis such that there is an equal amount of space between each item.
+		
+		<div class="flex justify-between">
+		  <div>01</div>
+		  <div>02</div>
+		  <div>03</div>
+		</div>
