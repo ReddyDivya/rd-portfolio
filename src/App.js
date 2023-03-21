@@ -11,8 +11,8 @@ const App = (props) => {
     return (
         <div className="bg-site bg-no-repeat bg-cover">
             <Header />
-            <About />
             <Banner />
+            <About />
             <Nav />
             <Work />
             <Services />

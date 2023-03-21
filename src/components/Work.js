@@ -1,6 +1,6 @@
 const Work = () => {
     return (
-        <div className="section">
+        <div className="section" id="work">
             Work
         </div>
     );
