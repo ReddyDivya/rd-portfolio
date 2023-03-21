@@ -24,3 +24,9 @@
 - Dead-simple and opinionated component to fade in an element's children.
 
 		npm install react-fade-in
+		
+## react-countup
+- A configurable React component wrapper around CountUp.js.
+	
+	npm install react-countup
+		
