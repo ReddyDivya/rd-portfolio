@@ -9,7 +9,7 @@ import Services from "./components/Services";
 
 const App = (props) => {
     return (
-        <div className="bg-site bg-no-repeat bg-cover">
+        <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
             <Header />
             <Banner />
             <About />

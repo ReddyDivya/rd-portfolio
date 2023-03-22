@@ -9,7 +9,7 @@
 
     .btn {
         background: linear-gradient(92.23deg, #0a033b 21.43%, #0c387a 50.63%, #3bace2 100%, #32a7dd 117.04%);
-        box-shadow: 0px 4.42184px 107.23px rgba(63, 118, 181, 0.51);
+        box-shadow: 0px 4.42184px 107.23px rgba(37, 81, 131, 0.51);
     }
 
     .btn:hover {
@@ -74,27 +74,34 @@
 
 @layer base {
 
-    .font-primary {}
+    .font-primary {
+        font-family: 'Ubuntu', sans-serif;
+    }
     .font-secondary{}
+    .font-teritary{
+        font-family: 'Mochiy Pop One', sans-serif;
+        font-family: 'Rajdhani', sans-serif;
+    }
+  
 
     body {
         @apply text-lg leading-8 text-white;
     }
 
     .h2 {
-        @apply text-[32px] mb-6 tracking-[10%] uppercase;
+        @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
     }
 
     .h3 {
-        @apply font-semibold text-[26px] mb-6 leading-[46px];
+        @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
     }
 
     .section {
-        @apply py-40 flex items-center;
+        @apply py-5 flex items-center;
     }
 
     .btn {
-        @apply rounded-full font-primary text-white font-medium;
+        @apply font-primary rounded-full text-white font-medium;
     }
 
     .btn-sm {
