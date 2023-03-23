@@ -29,4 +29,10 @@
 - A configurable React component wrapper around CountUp.js.
 	
 	npm install react-countup
-		
+ 
+## react-hook-inview
+- Detect if an element is in the viewport using a React Hook. Utilizes the Intersection Observer API, so check for 		     compatibility.
+Reference : https://github.com/bitmap/react-hook-inview
+			https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+
+	npm install react-hook-inview
